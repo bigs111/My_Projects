@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculator App</title>
+  </head>
+
+  <body>
+    <!-- Page header -->
+    <h1>Calculator App JS</h1>
+
+    <!-- Calc App main -->
+    <div class="container" id="container">
+      <!-- root div -->
+      <div class="root" id="root">
+        <!-- input div -->
+        <div class="input" id="input">
+          <input
+            type="text"
+            id="inputBox"
+            name="inputBox"
+            style="height: 60px; width: 470px"
+          />
+          <!-- input element -->
+        </div>
+        <div class="buttonRoot" id="buttonRoot">
+          <!-- Row 1 -->
+          <div class="button1">
+            <button type="button">+/-</button>
+            <button type="button">%</button>
+            <button type="button">√</button>
+            <button type="button" id="buttonClear">CE</button>
+          </div>
+          <!-- Row 2 -->
+          <div class="button2">
+            <button type="button" id="numSeven">7</button>
+            <button type="button" id="numEight">8</button>
+            <button type="button" id="numNine">9</button>
+            <button type="button" id="buttonDiv">/</button>
+          </div>
+          <!-- Row 3 -->
+          <div class="3">
+            <button type="button" id="numFour">4</button>
+            <button type="button" id="numFive">5</button>
+            <button type="button" id="numSix">6</button>
+            <button type="button" id="buttonMulti">*</button>
+          </div>
+          <!-- row 4 -->
+          <div class="button4">
+            <button type="button" id="numOne">1</button>
+            <button type="button" id="numTwo">2</button>
+            <button type="button" id="numThree">3</button>
+            <button type="button" id="buttonSub">-</button>
+          </div>
+          <div class="button5">
+            <button type="button" id="numZero">0</button>
+            <button type="button">.</button>
+            <button type="button" id="buttonSum">=</button>
+            <button type="button" id="buttonAdd">+</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
