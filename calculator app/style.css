@@ -1,16 +1,17 @@
-h1{
+h1 {
   text-align: center;
   padding-bottom: 160px;
   /* adding padding to buttom of header */
 }
-.container{
+
+.container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 200px;
 }
 
-.root{
+.root {
   text-align: center;
   width: 500px;
   height: 500px;
@@ -18,23 +19,24 @@ h1{
   background-color: whitesmoke;
 }
 
-.input{
+.input {
   padding-top: 5px;
-  
 }
-input{
+
+input {
   font-size: xxx-large;
   /* setting font size for input box */
 }
 
-.buttonRoot{
+.buttonMain {
   margin-top: 65px;
 }
-button{
+
+button {
   margin-right: 3px;
   margin-top: 10px;
   height: 60px;
   width: 110px;
   font-size: x-large;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }

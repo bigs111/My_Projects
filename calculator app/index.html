@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
   <head>
     <link rel="stylesheet" href="style.css" />
@@ -23,12 +23,12 @@
           />
           <!-- input element -->
         </div>
-        <div class="buttonRoot" id="buttonRoot">
+        <div class="buttonMain" id="buttonMain">
           <!-- Row 1 -->
           <div class="button1">
-            <button type="button">+/-</button>
-            <button type="button">%</button>
-            <button type="button">√</button>
+            <button type="button" id="buttonNegative">+/-</button>
+            <button type="button" id="buttonPercent">%</button>
+            <button type="button" id="buttonRoot">√</button>
             <button type="button" id="buttonClear">CE</button>
           </div>
           <!-- Row 2 -->
@@ -54,7 +54,7 @@
           </div>
           <div class="button5">
             <button type="button" id="numZero">0</button>
-            <button type="button">.</button>
+            <button type="button" id="buttonDot">.</button>
             <button type="button" id="buttonSum">=</button>
             <button type="button" id="buttonAdd">+</button>
           </div>
@@ -62,6 +62,9 @@
       </div>
     </div>
 
-    <script src="main.js"></script>
+    <!-- frontend js ( this file handles the frontend shit ) -->
+    <script src="frontend.js"></script>
+    <!-- backend js ( this file is the one that makes the actual calculation work ) -->
+    <!-- <script src="backend.js"></script> -->
   </body>
 </html>
