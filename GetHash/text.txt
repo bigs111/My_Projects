@@ -1,0 +1,5 @@
+hello world, my name is Jack.
+this is malware!
+.doc 
+.sh
+.vb
