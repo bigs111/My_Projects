@@ -1,0 +1,21 @@
+/* index.css */
+
+h1 {
+  text-align: center;
+  text-decoration: solid;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+table{
+  max-width: 40%;
+  margin-left: auto;
+  margin-right: 5%;
+}
+
+th, td{
+  font-family: 'Times New Roman', Times, serif;
+}
+/* profile picture styling */
+.profilePic {
+  text-align: center;
+}
