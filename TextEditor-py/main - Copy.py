@@ -1,5 +1,5 @@
 #
-# main.py | notepad written using tkinter
+# main.py | text editor written using tkinter
 #
 from tkinter import *
 from tkinter import ttk
@@ -61,6 +61,13 @@ def save_file():
             file.write(content)
 
 
+def find_button():
+    find_window = Toplevel(root)
+    find_window.title("Find")
+    find_window.geometry("200x100")
+    ttk.Entry(find_window).pack()
+    ttk.Button(find_window, text="Find").pack(side=BOTTOM)
+    
 #
 # BUTTON LOGIC ^^^^
 #
@@ -78,8 +85,7 @@ file.add_command(label="Exit", command=root.destroy)
 # Adding Edit Menu and commands
 edit = Menu(menubar, tearoff=0)
 menubar.add_cascade(label="Edit", menu=edit)
-edit.add_command(label="Find...", command=None)
-edit.add_command(label="Find again", command=None)
+edit.add_command(label="Find...", command=find_button)
 
 # displaying Menu
 root.config(menu=menubar)
