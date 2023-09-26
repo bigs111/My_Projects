@@ -61,6 +61,15 @@ def save_file():
             file.write(content)
 
 
+# function for finding text in textbox
+def find_button():
+    find_window = Toplevel(root)
+    find_window.geometry("400x300")
+    find_window.title("Find")
+    # need to add widgets to window and logic to them, along with highlighting words found. 
+    
+
+    
 #
 # BUTTON LOGIC ^^^^
 #
@@ -78,7 +87,7 @@ file.add_command(label="Exit", command=root.destroy)
 # Adding Edit Menu and commands
 edit = Menu(menubar, tearoff=0)
 menubar.add_cascade(label="Edit", menu=edit)
-edit.add_command(label="Find...", command=None)
+edit.add_command(label="Find...", command=find_button)
 
 # displaying Menu
 root.config(menu=menubar)
