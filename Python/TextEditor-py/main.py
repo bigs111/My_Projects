@@ -64,8 +64,12 @@ def save_file():
 # function for finding text in textbox
 def find_button():
     find_window = Toplevel(root)
-    find_window.geometry("400x300")
+    find_window.geometry("400x250")
     find_window.title("Find")
+    entry = ttk.Entry(find_window).pack()
+    f_button = ttk.Button(find_window, text="Find").pack()
+
+
     # need to add widgets to window and logic to them, along with highlighting words found. 
     
 
