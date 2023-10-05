@@ -1,0 +1,19 @@
+/*style.css*/
+
+h1{
+	text-align: center;
+}
+
+.main{
+	/* centering this item */
+	margin: auto; 
+	height: 60px;
+	width: 300px;
+	border: 2px solid black;
+}
+
+.clock{
+	text-align: center;
+	font-size: xxx-large;
+	font-family: fantasy;
+}
