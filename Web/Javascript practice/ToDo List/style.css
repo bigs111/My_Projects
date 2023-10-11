@@ -1,0 +1,22 @@
+/* style.css */
+
+.root{
+    margin: auto;
+    height: 600px;
+    width: 800px;
+    background-color: whitesmoke;
+}
+h1{
+    text-align: center;
+    padding-top: 1%;
+}
+.form{
+    text-align: center;
+}
+.taskSec{
+    margin: auto;
+    text-align: center;
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+}
